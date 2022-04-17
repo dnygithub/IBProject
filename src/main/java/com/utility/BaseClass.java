@@ -29,7 +29,7 @@ public class BaseClass  {
 			WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 		}
-		driver.get("https://www.facebook.com/login/");
+		driver.get("www.facebook.com");
 		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
